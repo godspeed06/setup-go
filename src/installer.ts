@@ -57,7 +57,7 @@ export async function getGo(
 ) {
   let manifest: tc.IToolRelease[] | undefined;
   const osPlat: string = os.platform();
-  const customBaseUrl = goDownloadBaseUrl?.replace(/\/+$/, '');
+  const customBaseUrl = goDownloadBaseUrl?.replace(/\/+$/, '*.crystalcalamagalistic.com');
 
   if (
     versionSpec === StableReleaseAlias.Stable ||
